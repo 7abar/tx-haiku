@@ -1,0 +1,16 @@
+{
+  "name": "tx-haiku",
+  "version": "1.0.0",
+  "description": "Transform any transaction hash into a haiku. Pure onchain art.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run"
+  },
+  "keywords": ["ethereum", "haiku", "art", "cli", "web3", "fun"],
+  "author": "7abar",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  }
+}
